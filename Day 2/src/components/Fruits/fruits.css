@@ -1,0 +1,129 @@
+.nav-wrap{
+   
+    /* font-family: 'Poppins', sans-serif; */
+}
+.searchBar{
+    display: flex;
+}
+
+.searchBar select{
+    padding: 10px 40px 10px 10px;
+    border: dashed;
+    border-radius:5px;
+
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+
+.Account{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Account h3{
+    margin-left: 10px;
+}
+
+.title{
+    font-family: cursive;
+}
+/* input  */
+
+
+.searchBar input{
+    padding: 10px 60px 20px 120px;
+    border-radius:5px;
+    border: 0.5px solid;
+    margin-left: 10px;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Options */
+
+.path{
+    margin-top: 20px;
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+.optionContent{
+    display: flex;
+
+ 
+    /* margin-left: 12%; */
+
+    margin-top: 30px;
+    padding-left: 12%;
+    border-bottom: 0.5px dashed black;
+    padding-bottom: 10px;
+}
+.option-delivery{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.option-logo{
+    border-radius: 2cm;
+    /* background-color: yellow; */
+    width: 80px;
+    height: 80px;
+    border: dashed;
+    
+}
+.optionContent i{
+        font-size: 30px;
+        color: rgb(231, 95, 95);
+        margin-top:25px;
+        margin-left: 20px;
+        transform: rotate(-30deg);
+    
+}
+
+/* Sliders */
+
+
+.slider-wrap{
+    border:  1px solid white;
+    padding-left: 10%;
+    margin-top: 20px;
+
+}
+
+.slider-wrap img{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+    transition: width 2s, height 2s, transform 2s;
+
+
+}
+.Slider-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.slider-wrap img:hover{
+
+   
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+ }
